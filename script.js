@@ -23,6 +23,7 @@ function fillShape(id) {
 function restart(id) {
     gameOver = false;
     fields = [];
+    currentShape = [];
     document.getElementById('game-over').classList.add('d-none');
     document.getElementById('restart-btn').classList.add('d-none');
 

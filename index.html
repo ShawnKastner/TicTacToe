@@ -14,6 +14,8 @@
 
 <body>
 
+    <img id="game-over" class="game-over d-none" src="img/game-over.png">
+    <button id="restart-btn" class="restart-btn d-none" onclick="restart()">Restart</button>
     <div class="player-panel">
         <div>
             <img id="player-1" class="player-inactive" src="img/circle.png">Player 1
@@ -23,14 +25,9 @@
         </div>
     </div>
 
-    <div class="horizontal-line" style="top: 255px"></div>
-    <div class="horizontal-line" style="top: 395px;"></div>
-    <div class="horizontal-line" style="top: 535px"></div>
-    <div class="horizontal-line make-vertical" style="top: 395px; left: 85px"></div>
-    <div class="horizontal-line make-vertical" style="top: 395px"></div>
-    <div class="horizontal-line make-vertical" style="top: 395px; right: 90px"></div>
-    <div class="horizontal-line" style="top: 395px; transform: rotate(45deg);"></div>
-    <div class="horizontal-line" style="top: 395px; transform: rotate(-45deg)"></div>
+
+
+
 
     <table>
         <tr>
@@ -75,6 +72,16 @@
                 <img id="cross-8" class="shape d-none" src="img/cross.png">
             </td>
         </tr>
+        <div style="position: absolute;">
+            <div id="line-1" class="horizontal-line" style="top: 362px"></div>
+            <div id="line-2" class="horizontal-line" style="top: 500px;"></div>
+            <div id="line-3" class="horizontal-line" style="top: 642px"></div>
+            <div id="line-4" class="horizontal-line make-vertical" style="right: -33px; top: 38px"></div>
+            <div id="line-5" class="horizontal-line make-vertical" style="left: -177px; top: 38px"></div>
+            <div id="line-6" class="horizontal-line make-vertical" style="left: -37px; top: 38px"></div>
+            <div id="line-7" class="horizontal-line" style="top: 5px; right: -185px; transform: rotate(45deg) scaleX(0.0)"></div>
+            <div id="line-8" class="horizontal-line" style="top: 5x; left: -185px; transform: rotate(-45deg) scaleX(0.0)"></div>
+        </div>
     </table>
 
 

@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,4 +80,15 @@ table tr td:last-child {
 
 .d-none {
     display: none;
+}
+
+.horizontal-line {
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    position: absolute;
+}
+
+.make-vertical {
+    transform: rotate(90deg);
 }
